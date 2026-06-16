@@ -228,27 +228,7 @@ Solemne2/
             └── gemini.spec.js
 ```
 
----
-
-## 7. Flujo de Juego con Eventos Múltiples por Día
-
-```
-Inicio del día
-  │
-  ├── Consumo diario de recursos
-  │
-  ├── ¿Hay minijuego este día? → Sí → Mostrar minijuego → Fin del día
-  │
-  ├── ¿Hay evento fijo este día? → Sí → Mostrar evento fijo
-  │
-  ├── ¿eventsThisDay < maxEventsPerDay? → Sí → Generar evento con IA
-  │                                         │
-  │                                         └── Repetir hasta llegar al máximo
-  │
-  └── Fin del día → day++ → Repetir
-```
-
-## 8. Nuevas Pantallas (Solemne 3)
+## 7. Nuevas Pantallas (Solemne 3)
 
 ### Pantalla de Login/Registro
 El usuario puede registrarse o iniciar sesión para guardar su progreso en el servidor.
